@@ -39,8 +39,14 @@ Deploy your Lambda functions to AWS, specifying the Kinesis stream as the trigge
 #### Transform and Store Data:
 Configure the Lambda functions to transform and store data in AWS S3 and, if applicable, Snowflake.
 
+![AWS S3](app_flow/assets/s3-bucket.png)
+
 #### Query Data:
 Use AWS Athena to query data stored in S3 for ad-hoc analysis and reporting.
+
+![AWS Athena](app_flow/assets/athena-kinesis.png)
+
+![AWS Snow](app_flow/assets/snowflake-table.png)
 
 ### License:
 This project is open-source and distributed under the MIT License, allowing for collaboration and adaptation according to your requirements.
