@@ -3,6 +3,8 @@ The Real-time Wikipedia Data Streaming Project is designed to capture and proces
 
 Keywords: Python, AWS Kinesis, AWS Firehose, AWS Lambda, Snowflake, AWS S3, AWS Athena
 
+![AWS Kinesis Snowflake Flow](app_flow/assets/kinesis-snowflake-flow.png)
+
 ### Components
 The project consists of the following components:
 
@@ -12,8 +14,6 @@ The project consists of the following components:
 * AWS Athena: Allows SQL-based querying of data stored in S3.
 * AWS Glue Crawler: Creates sthe schema of the table.
 * Snowflake Data Warehouse: Stores structured and transformed data for analytics.
-
-
 
 ### Prerequisites
 Before you begin, ensure you have the following prerequisites in place:
